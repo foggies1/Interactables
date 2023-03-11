@@ -3,7 +3,7 @@ variety of events.
 
 Example
 
-```
+```java
 
 public class TestInteractableItem extends Interactable {
 
