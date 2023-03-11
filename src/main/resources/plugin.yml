@@ -1,0 +1,4 @@
+name: Interactables
+version: '${project.version}'
+main: dev.foggies.interactables.Interactables
+api-version: 1.19
