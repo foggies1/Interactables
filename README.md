@@ -66,3 +66,17 @@ public class TestInteractableItem extends Interactable {
 }
 
 ```
+Registering your Interactable Item
+
+> Navigate to the InteractableStorage class and do the following within the constructor.
+
+```java
+
+  public InteractableStorage(Interactables plugin) {
+        this.plugin = plugin;
+        addInteractable(new TestInteractableItem(plugin));
+  }
+
+```
+
+
